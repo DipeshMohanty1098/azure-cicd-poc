@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 pool:
-  name: 'Self-Host'
+  name: Self-Host
   vmImage: ubuntu-latest
 
 variables:
