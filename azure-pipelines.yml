@@ -10,7 +10,7 @@ resources:
 
 pool:
   name: 'Self-Host'
-
+  vmImage: ubuntu-latest
 
 variables:
   tag: '$(Build.BuildId)'
