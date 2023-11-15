@@ -8,6 +8,10 @@ trigger:
 resources:
 - repo: self
 
+pool:
+  name: Default
+
+
 variables:
   tag: '$(Build.BuildId)'
 
