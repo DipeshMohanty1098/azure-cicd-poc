@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 pool:
-  name: 'Default'
+  name: 'default'
 
 
 variables:
