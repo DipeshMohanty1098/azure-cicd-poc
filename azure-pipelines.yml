@@ -13,6 +13,7 @@ variables:
 
 stages:
 - stage: Build
+  lockBehavior: sequential
   displayName: Build image
   jobs:
   - job: Build
